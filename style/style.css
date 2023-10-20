@@ -32,6 +32,15 @@ button {
   background-color: transparent;
 }
 
+.common-title {
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 60px;
+  letter-spacing: 1.92px;
+  text-transform: uppercase;
+  font-family: "Merriweather", sans-serif;
+}
+
 .button {
   width: 260px;
   height: 62px;
@@ -104,6 +113,7 @@ button {
   border-radius: 5px;
 }
 
+/* Main Content */
 .main-content {
   padding-top: 103px;
   padding-bottom: 199px;
@@ -142,4 +152,178 @@ button {
   top: -123px;
   position: absolute;
   left: calc(100% - 991px);
+}
+
+/* Why */
+.why {
+  padding-bottom: 180px;
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url("../images/whybg.png");
+}
+
+.why-items {
+  display: grid;
+  column-gap: 100px;
+  justify-content: center;
+  grid-template-columns: repeat(3, 312px);
+}
+
+.why-item {
+  text-align: center;
+}
+
+.why-item-title {
+  font-size: 24px;
+  margin: 24px 0;
+}
+
+.why-item-text {
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+/* Products */
+.products {
+  padding-bottom: 180px;
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url("../images/burgers_bg.png");
+}
+
+.products-items {
+  gap: 24px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 384px);
+}
+
+.products-item {
+  padding: 30px;
+  border-radius: 16px;
+  background: #211a16;
+  border: 1px solid #353535;
+}
+
+.products-item img {
+  max-width: 100%;
+}
+
+.products-item-title {
+  font-size: 24px;
+}
+
+.products-item-text {
+  padding: 24px 0;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.products-item-extra {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-item-price {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.products-item-weight {
+  font-size: 16px;
+  font-weight: 300;
+  color: #757575;
+}
+
+.products-item .button {
+  width: 182px;
+}
+
+.button span:first-child {
+  margin-right: 10px;
+}
+
+/* Order */
+
+.order {
+  overflow: hidden;
+  padding-bottom: 180px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url("../images/order_bg.png");
+}
+
+.order .container {
+  position: relative;
+}
+
+.order-image {
+  top: 0;
+  z-index: -1;
+  position: absolute;
+  right: calc(100% - 764px);
+}
+
+.order-form {
+  width: 424px;
+  padding: 60px 40px;
+  margin-left: 674px;
+  border-radius: 16px;
+  background: #211a16;
+  box-sizing: border-box;
+  border: 1px solid #353535;
+}
+
+.order-form-text {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.order-form-inputs {
+  display: flex;
+  row-gap: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.order-form-input {
+  width: 344px;
+  height: 62px;
+  border-radius: 8px;
+  background: linear-gradient(95.61deg, #da8023 0%, #e2b438 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-form input{
+    width: 342px;
+    height: 60px;
+    color: #fff;
+    outline: none;
+    padding: 16px 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #211a16;
+    border: 1px solid transparent;
+}
+
+.order-form .button {
+    width: 344px;
+}
+
+
+/* Footer */
+
+.footer{
+    padding: 60px 0;
+}
+
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

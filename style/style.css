@@ -200,6 +200,15 @@ button {
   grid-template-columns: repeat(3, 384px);
 }
 
+.products-items:last-child {
+  margin-top: 24px;
+  padding-bottom: 180px;
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url("../images/burgers_bg.png");
+}
+
 .products-item {
   padding: 30px;
   border-radius: 16px;

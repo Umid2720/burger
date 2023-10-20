@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Semibold.ttf");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/Merriweather-Black.ttf");
+}
+
+body {
+  color: #fff;
+  background-color: #191411;
+  font-family: "Gilroy", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+button {
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.button {
+  width: 260px;
+  height: 62px;
+  padding: 19px;
+  display: flex;
+  font-size: 18px;
+  color: #191411;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(96deg, #da8023 0%, #e2b438 100%);
+}
+
+.button:hover {
+  background: linear-gradient(96deg, #ac6115 0%, #9e7a19 100%);
+}
+
+.main {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url("../images/main_bg.png");
+}
+
+.header {
+  padding: 40px 0;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  vertical-align: bottom;
+}
+
+.menu {
+  margin-left: 191px;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  column-gap: 88px;
+  align-items: center;
+}
+
+.menu-item a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  border-bottom: 2px solid;
+}
+
+.currency {
+  width: 45px;
+  height: 45px;
+  color: #fff;
+  padding: 11px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: auto;
+  border: 1px solid;
+  user-select: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.main-content {
+  padding-top: 103px;
+  padding-bottom: 199px;
+}
+
+.main-content .container {
+  position: relative;
+}
+
+.main-info {
+  max-width: 608px;
+}
+
+.main-small-info {
+  font-size: 18px;
+  padding: 12px 16px;
+  border-radius: 100px;
+  display: inline-block;
+  background-color: #d3320f;
+}
+
+.main-title {
+  font-size: 120px;
+  line-height: 156px;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+  font-family: "Merriweather", sans-serif;
+}
+
+.main-text {
+  margin: 56px 0;
+  font-size: 24px;
+}
+
+.main-image {
+  top: -123px;
+  position: absolute;
+  left: calc(100% - 991px);
+}

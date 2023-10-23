@@ -104,6 +104,7 @@ button {
   height: 45px;
   color: #fff;
   padding: 11px;
+  display: flex;
   font-size: 18px;
   font-weight: 600;
   margin-left: auto;
@@ -111,6 +112,8 @@ button {
   user-select: none;
   text-align: center;
   border-radius: 5px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Main Content */
@@ -188,7 +191,7 @@ button {
 .products {
   padding-bottom: 180px;
   background-size: 1400px;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-position: top center;
   background-image: url("../images/burgers_bg.png");
 }
@@ -214,6 +217,9 @@ button {
   border-radius: 16px;
   background: #211a16;
   border: 1px solid #353535;
+}
+.pointer {
+  cursor: pointer;
 }
 
 .products-item img {
@@ -308,31 +314,30 @@ button {
   justify-content: center;
 }
 
-.order-form input{
-    width: 342px;
-    height: 60px;
-    color: #fff;
-    outline: none;
-    padding: 16px 10px;
-    border-radius: 8px;
-    box-sizing: border-box;
-    background-color: #211a16;
-    border: 1px solid transparent;
+.order-form input {
+  width: 342px;
+  height: 60px;
+  color: #fff;
+  outline: none;
+  padding: 16px 10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #211a16;
+  border: 1px solid transparent;
 }
 
 .order-form .button {
-    width: 344px;
+  width: 344px;
 }
-
 
 /* Footer */
 
-.footer{
-    padding: 60px 0;
+.footer {
+  padding: 60px 0;
 }
 
-.footer .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
